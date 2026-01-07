@@ -1,0 +1,41 @@
+{
+  "Electrical Engineering": {
+    "Easy": [],
+    "Medium": [],
+    "Hard": [],
+    "Expert": []
+  },
+  "Computer Science": {
+    "Easy": [
+      {
+        "player_name": "laraib",
+        "score": 25,
+        "total_marks": 25,
+        "percentage": 100.0,
+        "timestamp": "2026-01-07 17:45:58"
+      },
+      {
+        "player_name": "Umair Ahmad",
+        "score": 13,
+        "total_marks": 25,
+        "percentage": 52.0,
+        "timestamp": "2026-01-07 17:44:43"
+      }
+    ],
+    "Medium": [],
+    "Hard": [],
+    "Expert": []
+  },
+  "Business Administration": {
+    "Easy": [],
+    "Medium": [],
+    "Hard": [],
+    "Expert": []
+  },
+  "Mathematics": {
+    "Easy": [],
+    "Medium": [],
+    "Hard": [],
+    "Expert": []
+  }
+}

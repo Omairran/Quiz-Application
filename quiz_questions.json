@@ -1,0 +1,500 @@
+{
+  "departments": {
+    "Electrical Engineering": {
+      "Easy": [
+        {
+          "question": "What is the SI unit of electric current?",
+          "options": ["Volt", "Ampere", "Ohm", "Watt"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "Ohm's Law relates voltage, current, and:",
+          "options": ["Power", "Resistance", "Capacitance", "Inductance"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "Which component stores electrical energy in an electric field?",
+          "options": ["Resistor", "Inductor", "Capacitor", "Diode"],
+          "correct_answer": 2,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "The flow of electrons constitutes:",
+          "options": ["Voltage", "Current", "Resistance", "Power"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "A device that converts AC to DC is called:",
+          "options": ["Inverter", "Rectifier", "Transformer", "Amplifier"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        }
+      ],
+      "Medium": [
+        {
+          "question": "In a series RLC circuit at resonance, the impedance is:",
+          "options": ["Maximum", "Minimum", "Zero", "Infinite"],
+          "correct_answer": 1,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "The Thevenin equivalent of a circuit consists of:",
+          "options": ["Voltage source and series resistance", "Current source and parallel resistance", "Two voltage sources", "Capacitor and inductor"],
+          "correct_answer": 0,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "What is the power factor of a purely resistive circuit?",
+          "options": ["0", "0.5", "0.707", "1"],
+          "correct_answer": 3,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "A transformer works on the principle of:",
+          "options": ["Self-induction", "Mutual induction", "Electromagnetic induction", "Electrostatic induction"],
+          "correct_answer": 1,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "In a balanced three-phase system, the phase difference between voltages is:",
+          "options": ["60 degrees", "90 degrees", "120 degrees", "180 degrees"],
+          "correct_answer": 2,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        }
+      ],
+      "Hard": [
+        {
+          "question": "The Laplace transform of unit step function u(t) is:",
+          "options": ["1/s", "s", "1/s²", "s²"],
+          "correct_answer": 0,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        },
+        {
+          "question": "In a transmission line, the characteristic impedance depends on:",
+          "options": ["L and C per unit length", "R and G per unit length", "Frequency only", "Voltage and current"],
+          "correct_answer": 0,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        },
+        {
+          "question": "Maxwell's equation ∇×E = -∂B/∂t represents:",
+          "options": ["Gauss's law", "Faraday's law", "Ampere's law", "Coulomb's law"],
+          "correct_answer": 1,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        }
+      ],
+      "Expert": [
+        {
+          "question": "In Smith Chart analysis, moving towards the generator represents:",
+          "options": ["Increasing VSWR", "Adding series inductance", "Subtracting electrical length", "Increasing reflection coefficient"],
+          "correct_answer": 2,
+          "time_limit": 30,
+          "marks": 20,
+          "negative_marks": 4
+        },
+        {
+          "question": "For a critically damped RLC circuit, the damping ratio ζ equals:",
+          "options": ["0", "0.5", "1", "2"],
+          "correct_answer": 2,
+          "time_limit": 30,
+          "marks": 20,
+          "negative_marks": 4
+        }
+      ]
+    },
+    "Computer Science": {
+      "Easy": [
+        {
+          "question": "What does CPU stand for?",
+          "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Computer Processing Unit"],
+          "correct_answer": 0,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "Which data structure uses LIFO (Last In First Out)?",
+          "options": ["Queue", "Stack", "Array", "Linked List"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "What is the time complexity of binary search?",
+          "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "Which programming paradigm does Python primarily support?",
+          "options": ["Functional", "Object-Oriented", "Procedural", "All of the above"],
+          "correct_answer": 3,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "SQL stands for:",
+          "options": ["Structured Query Language", "Simple Query Language", "Standard Question Language", "System Query Language"],
+          "correct_answer": 0,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        }
+      ],
+      "Medium": [
+        {
+          "question": "Which sorting algorithm has the best average time complexity?",
+          "options": ["Bubble Sort", "Merge Sort", "Selection Sort", "Insertion Sort"],
+          "correct_answer": 1,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "In object-oriented programming, hiding implementation details is called:",
+          "options": ["Abstraction", "Encapsulation", "Polymorphism", "Inheritance"],
+          "correct_answer": 1,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "What is the purpose of a hash function in hash tables?",
+          "options": ["Sorting data", "Encrypting data", "Mapping keys to indices", "Compressing data"],
+          "correct_answer": 2,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "Which protocol is used for secure web communication?",
+          "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+          "correct_answer": 2,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        }
+      ],
+      "Hard": [
+        {
+          "question": "What is the space complexity of depth-first search (DFS) in a graph?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(V + E)"],
+          "correct_answer": 2,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        },
+        {
+          "question": "In database normalization, which normal form eliminates transitive dependencies?",
+          "options": ["1NF", "2NF", "3NF", "BCNF"],
+          "correct_answer": 2,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        },
+        {
+          "question": "Which algorithm is used in Git for detecting duplicate files?",
+          "options": ["MD5", "SHA-1", "CRC32", "Base64"],
+          "correct_answer": 1,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        }
+      ],
+      "Expert": [
+        {
+          "question": "What is the time complexity of the Aho-Corasick string matching algorithm?",
+          "options": ["O(n + m + z)", "O(nm)", "O(n log m)", "O(n²)"],
+          "correct_answer": 0,
+          "time_limit": 30,
+          "marks": 20,
+          "negative_marks": 4
+        },
+        {
+          "question": "In the CAP theorem, what does 'C' stand for?",
+          "options": ["Consistency", "Concurrency", "Connectivity", "Completeness"],
+          "correct_answer": 0,
+          "time_limit": 30,
+          "marks": 20,
+          "negative_marks": 4
+        }
+      ]
+    },
+    "Business Administration": {
+      "Easy": [
+        {
+          "question": "What does ROI stand for?",
+          "options": ["Return on Investment", "Rate of Interest", "Return of Income", "Revenue on Investment"],
+          "correct_answer": 0,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "Which financial statement shows a company's profitability?",
+          "options": ["Balance Sheet", "Income Statement", "Cash Flow Statement", "Statement of Equity"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "SWOT analysis stands for:",
+          "options": ["Strengths, Weaknesses, Opportunities, Threats", "Sales, Work, Operations, Technology", "Systems, Workflows, Organizations, Teams", "Strategy, Wealth, Outcomes, Tactics"],
+          "correct_answer": 0,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "The four Ps of marketing are Product, Price, Place, and:",
+          "options": ["Profit", "Promotion", "People", "Performance"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "Which accounting principle states that revenues should be recorded when earned?",
+          "options": ["Matching Principle", "Revenue Recognition Principle", "Cost Principle", "Consistency Principle"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        }
+      ],
+      "Medium": [
+        {
+          "question": "What is the break-even point in business?",
+          "options": ["Maximum profit point", "Point where total revenue equals total cost", "Minimum cost point", "Maximum sales point"],
+          "correct_answer": 1,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "In Porter's Five Forces, which is NOT a force?",
+          "options": ["Threat of new entrants", "Bargaining power of suppliers", "Government regulations", "Competitive rivalry"],
+          "correct_answer": 2,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "What does EPS stand for in finance?",
+          "options": ["Earnings Per Share", "Equity Per Stock", "Expected Profit Share", "Estimated Performance Score"],
+          "correct_answer": 0,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "Which leadership style involves minimal direction and maximum freedom?",
+          "options": ["Autocratic", "Democratic", "Laissez-faire", "Transformational"],
+          "correct_answer": 2,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        }
+      ],
+      "Hard": [
+        {
+          "question": "What is the Weighted Average Cost of Capital (WACC) used for?",
+          "options": ["Inventory valuation", "Discount rate for NPV calculations", "Tax calculation", "Revenue forecasting"],
+          "correct_answer": 1,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        },
+        {
+          "question": "In the BCG Matrix, what are 'Cash Cows'?",
+          "options": ["High growth, high market share", "Low growth, high market share", "High growth, low market share", "Low growth, low market share"],
+          "correct_answer": 1,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        },
+        {
+          "question": "Which financial ratio measures a company's ability to pay short-term obligations?",
+          "options": ["Debt-to-Equity Ratio", "Current Ratio", "Return on Assets", "Price-to-Earnings Ratio"],
+          "correct_answer": 1,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        }
+      ],
+      "Expert": [
+        {
+          "question": "What is the Black-Scholes model primarily used for?",
+          "options": ["Stock valuation", "Option pricing", "Bond pricing", "Currency exchange"],
+          "correct_answer": 1,
+          "time_limit": 30,
+          "marks": 20,
+          "negative_marks": 4
+        },
+        {
+          "question": "In financial analysis, what does the Altman Z-Score predict?",
+          "options": ["Stock returns", "Bankruptcy probability", "Market share", "Revenue growth"],
+          "correct_answer": 1,
+          "time_limit": 30,
+          "marks": 20,
+          "negative_marks": 4
+        }
+      ]
+    },
+    "Mathematics": {
+      "Easy": [
+        {
+          "question": "What is the derivative of x² with respect to x?",
+          "options": ["x", "2x", "x²", "2"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "What is the value of π (pi) approximately?",
+          "options": ["2.718", "3.142", "1.618", "2.236"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "What is the sum of interior angles in a triangle?",
+          "options": ["90 degrees", "180 degrees", "270 degrees", "360 degrees"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "What is the Pythagorean theorem?",
+          "options": ["a + b = c", "a² + b² = c²", "a × b = c", "a/b = c"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        },
+        {
+          "question": "What is 5! (5 factorial)?",
+          "options": ["25", "120", "60", "100"],
+          "correct_answer": 1,
+          "time_limit": 15,
+          "marks": 5,
+          "negative_marks": 1
+        }
+      ],
+      "Medium": [
+        {
+          "question": "What is the integral of 1/x dx?",
+          "options": ["ln|x| + C", "1/x² + C", "x² + C", "e^x + C"],
+          "correct_answer": 0,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "What is the determinant of a 2×2 identity matrix?",
+          "options": ["0", "1", "2", "4"],
+          "correct_answer": 1,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "In a normal distribution, what percentage of data falls within one standard deviation?",
+          "options": ["50%", "68%", "95%", "99%"],
+          "correct_answer": 1,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        },
+        {
+          "question": "What is the Euler's number (e) approximately?",
+          "options": ["2.718", "3.142", "1.618", "1.414"],
+          "correct_answer": 0,
+          "time_limit": 20,
+          "marks": 10,
+          "negative_marks": 2
+        }
+      ],
+      "Hard": [
+        {
+          "question": "What is the Taylor series expansion of e^x around x=0?",
+          "options": ["1 + x + x²/2! + x³/3! + ...", "x + x²/2 + x³/3 + ...", "1 + x + x² + x³ + ...", "x - x²/2 + x³/3 - ..."],
+          "correct_answer": 0,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        },
+        {
+          "question": "For a continuous random variable, what is P(X = a) where 'a' is any specific value?",
+          "options": ["1", "0.5", "0", "Depends on distribution"],
+          "correct_answer": 2,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        },
+        {
+          "question": "What is the rank of a 3×3 matrix with all rows linearly independent?",
+          "options": ["1", "2", "3", "0"],
+          "correct_answer": 2,
+          "time_limit": 25,
+          "marks": 15,
+          "negative_marks": 3
+        }
+      ],
+      "Expert": [
+        {
+          "question": "What is the Riemann Hypothesis primarily concerned with?",
+          "options": ["Prime number distribution", "Topology", "Group theory", "Number partitions"],
+          "correct_answer": 0,
+          "time_limit": 30,
+          "marks": 20,
+          "negative_marks": 4
+        },
+        {
+          "question": "In complex analysis, what is the residue of f(z) = 1/z at z=0?",
+          "options": ["0", "1", "∞", "Undefined"],
+          "correct_answer": 1,
+          "time_limit": 30,
+          "marks": 20,
+          "negative_marks": 4
+        }
+      ]
+    }
+  }
+}
